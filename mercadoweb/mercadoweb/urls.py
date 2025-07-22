@@ -6,7 +6,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('apps.producto.urls')),  # Aquí conectamos las URLs de la app 'producto'
+    path('producto/', include('apps.producto.urls')),  # Aquí conectamos las URLs de la app 'producto'
+    path('cliente/', include('apps.cliente.urls')),
+    path('carrito/', include('apps.carrito.urls')),
 ]
 
 # Esta línea sirve para que en modo desarrollo se puedan cargar los archivos media (imágenes, etc.)

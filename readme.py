@@ -1,1 +1,1 @@
-#quede en 1.14 el videoe
+#quede en 0,34minpip freeze > requirements.txt

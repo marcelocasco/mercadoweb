@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
-from django.http import HttpResponse
+def producto(request):
+    return render(request, 'producto.html')
 
-def index(request):
-    return HttpResponse("¡Hola desde Producto!")
+def producto_limpieza(request):
+    return render(request, 'producto_limpieza.html')
